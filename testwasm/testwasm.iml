@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/testwasm/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/testwasm/build" />
+      <excludeFolder url="file://$MODULE_DIR$/testwasm/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/testwasm/wasm/build" />
+      <excludeFolder url="file://$MODULE_DIR$/testwasm/wasm/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/testwasm/wasm/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/ttt/build" />
+      <excludeFolder url="file://$MODULE_DIR$/ttt/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/ttt/.pub" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
+  </component>
+</module>
