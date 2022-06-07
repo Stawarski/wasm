@@ -8,7 +8,7 @@
    <body>
       <div id="textcontent"></div>
       <script type="text/javascript"> 	  
-         fetch("https://github.com/Stawarski/wasm/blob/5f4c18ca08f95a527a14d37f5b31399acd77466f/helloworld.wasm") .then(bytes => bytes.arrayBuffer())
+         fetch("helloworld.wasm") .then(bytes => bytes.arrayBuffer())
 		 .then(mod => WebAssembly.compile(mod)) .then(module => {
       return new WebAssembly.Instance(module) 
    }) 
