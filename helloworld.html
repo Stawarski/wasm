@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<?php header("Access-Control-Allow-Origin: *"); ?>
+   <head>
+      <meta charset="utf-8"> 
+      <title>WebAssembly Hello World</title> 
+   </head> 
+   <body>
+      <div id="textcontent"></div>
+      <script type="text/javascript"> 	  
+         fetch("helloworld.wasm") .then(bytes => bytes.arrayBuffer())
+		 .then(mod => WebAssembly.compile(mod)) .then(module => {
+      return new WebAssembly.Instance(module) 
+   }) 
+   .then(instance => {
+      console.log(instance);
+   }); 
+      </script> 
+   </body>
+</html>
